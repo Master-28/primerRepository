@@ -18,7 +18,7 @@ int quantsXurros(int X){
 	
 	while(fin == 0){
 		
-		if((X%2 == 0) && (X%43 == 0)){
+		if((X%2 == 0) && (X%5 == 0)){
 			fin = 1;
 			Y = X;
 		}
